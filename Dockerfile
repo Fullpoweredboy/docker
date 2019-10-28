@@ -74,7 +74,7 @@ LABEL version="beta"
 
 EXPOSE 80
 
-ADD add_test.txt /root/test/
+#ADD add_test.txt /root/test/
 #ADD ignore.txt /root/test/
 
 CMD ["mkdir", "-p", "/root/test/log"]
