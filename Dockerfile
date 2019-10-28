@@ -1,5 +1,6 @@
 # STEP:0 Base Image
-FROM centos:latest
+FROM centos:7
+#FROM centos:latest
 
 # STEP:1 Author
 MAINTAINER FULLPOWEREDBOY fullpoweredboy@gmail.com
